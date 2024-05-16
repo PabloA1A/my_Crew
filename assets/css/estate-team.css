@@ -1,0 +1,68 @@
+.rep{
+}
+
+.list{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    display: flex;
+    align-items: center;
+}
+
+span label{
+    margin-left: 20px;
+}
+
+span img{
+    margin-left: 10px;
+}
+
+.state {
+    width: 60vb;
+    background-color: #142738;
+    color: #F8DAC2;
+    padding: 0.8rem;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list .state img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.switch {
+	color: #6f839a;
+	cursor: pointer;
+	font-weight: 600;
+	line-height: 1.5em;
+	border-radius: 3px;
+	padding: .125em .5em;
+	display: inline-block;
+	background-color: #3e4956;
+	-webkit-transition: .15s ease;
+	-moz-transition: .15s ease;
+	-ms-transition: .15s ease;
+	-o-transition: .15s ease;
+	transition: .15s ease;
+}
+
+input[type="radio"]:checked + .switch {
+	color: #142738;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+input[type="radio"]:checked + .switch--on {
+	background-color: #7eab55;
+}
+
+input[type="radio"]:checked + .switch--off {
+	background-color: #CA1444;
+}

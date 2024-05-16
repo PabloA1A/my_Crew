@@ -2,8 +2,9 @@
 @import url('team.css');
 @import url('top-button.css');
 @import url('footer.css');
-@import "login.css";
-@import "baner.css";
+@import url('baner.css');
+@import url('login.css');
+@import url('estate-team.css');
  
 *{
     padding: 0;
