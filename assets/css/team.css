@@ -1,0 +1,54 @@
+section{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+section .header{
+    margin-bottom: 1rem;
+    color: #142738;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.features .card{
+    background-color: #142738;
+    color: #F8DAC2;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.features .card:hover{
+    background-color: #F4436F;
+    border-color: #142738;
+}
+
+.features .card img{
+    margin-top: 3rem;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.features .card h4{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
