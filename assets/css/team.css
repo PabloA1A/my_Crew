@@ -25,7 +25,7 @@ section .header {
     gap: 2rem;
 }
 
-.features .card {
+.card {
     background-color: #142738;
     color: #F8DAC2;
     padding: 1rem;
@@ -61,7 +61,7 @@ div.back {
     bottom: 0;
 }
 
-.features .card:hover {
+.features .posit .card:hover {
     display: none;
 }
 
