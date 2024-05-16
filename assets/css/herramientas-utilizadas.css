@@ -1,0 +1,33 @@
+.fila {
+  background-color: #1E2A3A;
+  color: #FFFFFF; 
+  padding: 20px; 
+  text-align: center; 
+  }
+
+.herramientas h2 {
+  margin-bottom: 10px; 
+  }
+
+.fila {
+  margin-bottom: 20px; 
+  }
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.imagenes img {
+  width: 20px; 
+  margin-right: 10px;
+  }
+
+.imagenes img:last-child {
+  margin-right: 0; 
+  }
+
+.imagenes p {
+  margin-left: 5px;
+  }
