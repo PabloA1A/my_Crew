@@ -1,0 +1,21 @@
+.cabecera {
+  background-color: #142738;
+  color: #F8DAC2;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.logo img {
+  height: 70px;
+  margin-right: 20px;
+}
+
+.logo h1 {
+  font-size: 32px;
+  margin: 0;
+}
