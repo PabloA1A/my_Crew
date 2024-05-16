@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-Crew</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <nav class="cabecera">
         <div class="logo">
@@ -13,21 +15,26 @@
             <h1 class="titulo">TITAN</h1>
         </div>
     </nav>
-    <section>
-        <div class="card">
-        <label id="name-label">Name<br><input id="name" type="text" placeholder="enter-your-name" required /></label>
-           <br>
-           <label id="Pasword-label">Password<br><input id="password-label" type="password" placeholder="enter-your-password" required /></label>
-           <br>
-           <br>
-           <button id="button" type="button" >Login</button>
-           <br>
-         </div> 
-        </section> 
+
+    <section class="login-body">
+        <div class="login">
+            <div class="data">
+                <label for="name">Nombre</label>
+                <input type="text" name="input" required >
+            </div>
+            <div class="data">
+                <label for="email">Contraseña</label>
+                <input type="password" name="input" required >
+            </div>
+            <button type="button">LOGIN</button>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="copyright"><img src="./assets/img/copyright.png" alt="Copyright">Copyright</div>
     </footer>
-    
+
     <script src="./assets/js/js.js"></script>
 </body>
+
 </html>
