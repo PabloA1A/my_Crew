@@ -1,0 +1,31 @@
+.footer {
+    background-color: #1E2A3A;
+    color: #FFFFFF;
+    text-align: center; 
+  }
+
+.logo-img {
+    height: 70px;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-content: center;
+    padding: 20px; 
+  }
+
+.footer .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; 
+    color: #F8DAC2;
+  }
+
+.footer img {
+    height: 25px;
+    margin-right: 5px; 
+  }
