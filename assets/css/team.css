@@ -35,10 +35,21 @@ section .header{
     transition: all 0.3s ease;
 }
 
-.features .card:hover{
+.features .card.javier:hover{
     background-color: #F4436F;
     border-color: #142738;
 }
+
+.features .card.jorge:hover{
+    background-color: #CA1444;
+    border-color: #142738;
+}
+
+.features .card.pablo:hover{
+    background-color: #F2A297;
+    border-color: #142738;
+}
+
 
 .features .card img{
     margin-top: 3rem;
