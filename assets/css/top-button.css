@@ -1,0 +1,21 @@
+.cabecera {
+    background-color: #1E2A3A; 
+    color: #FFFFFF;
+    padding: 20px;
+  }
+
+.logo {
+    display: flex;
+    align-items: center; 
+  }
+
+.logo-img {
+    height: 70px;
+    margin-right: 20px; 
+  }
+
+.titulo {
+    color: #F8DAC2;
+    font-size: 50px;
+    margin: 0; 
+  }

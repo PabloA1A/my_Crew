@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('team.css');
+@import url('top-button.css');
+@import url('footer.css');
 @import "login.css";
+ 
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
 
-
-
+body{
+    font-family: 'Sedan SC', sans-serif;
+}
