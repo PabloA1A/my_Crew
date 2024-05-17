@@ -17,24 +17,26 @@
     </nav>
 
     <section class="login-body">
-        <div class="login">
-            <div class="data">
-                <label for="name">Nombre</label>
-                <input type="text" name="input" required >
+        <form action="http://127.0.0.1:5500/land_page.html">
+            <div class="login">
+                <div class="data">
+                    <label for="name">Nombre</label>
+                    <input id="nombre" type="text" name="nombre" required>
+                </div>
+                <div class="data">
+                    <label for="email">Contraseña</label>
+                    <input type="password" name="input" required>
+                </div>
+                <button type="submit" onclick="login();">LOGIN</button>
             </div>
-            <div class="data">
-                <label for="email">Contraseña</label>
-                <input type="password" name="input" required >
-            </div>
-            <button type="button">LOGIN</button>
-        </div>
+        </form>
     </section>
 
     <footer class="footer">
         <div class="copyright"><img src="./assets/img/copyright.png" alt="Copyright">Copyright</div>
     </footer>
 
-    <script src="./assets/js/js.js"></script>
+    <script src="./assets/js/login.js"></script>
 </body>
 
 </html>
