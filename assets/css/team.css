@@ -61,11 +61,6 @@ div.back {
     bottom: 0;
 }
 
-.features .posit .card:hover {
-    display: none;
-}
-
-
 .features .card img {
     margin-top: 3rem;
     width: 100%;
@@ -77,4 +72,35 @@ div.back {
     margin-top: 1.5rem;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+.circle-container1:hover .overlay {
+    background-color:#F2A297;
+    opacity: 1;
+}
+
+.circle-container2:hover .overlay {
+    background-color:#CA1444;
+    opacity: 1;
+}
+
+.circle-container3:hover .overlay {
+    background-color:#F4436F;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 15px;
+    transition: background-color 0.3s, opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F8DAC2;
 }
